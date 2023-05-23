@@ -20,6 +20,7 @@
 
 .sidebar {
   width: 260px;
+  height: 100vh;
   color: #7d84ab;
   overflow-x: hidden !important;
   position: relative;
@@ -416,6 +417,10 @@ a {
 .layout .sidebar.collapsed .pro-sidebar-logo > h5 {
   opacity: 0;
 }
+.company-name {
+  margin: 0;
+  font-family: inherit;
+}
 .layout .sidebar.collapsed .footer-box {
   display: none;
 }
@@ -447,9 +452,10 @@ a {
 }
 
 .sidebar-toggler {
-  position: fixed;
+  /* position: fixed;
   right: 20px;
-  top: 20px;
+  top: 20px; */
+  display: none;
 }
 
 .social-links a {
